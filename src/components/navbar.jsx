@@ -37,7 +37,7 @@ const NavBar = () => {
 
 
       <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-gray-500 md:hidden'>
-      {nav ? <FaTimes set={30}/> : <FaBarsStaggered size={30} />}
+      {nav ? <FaTimes set={50}/> : <FaBarsStaggered size={30} />}
       </div>
 
 

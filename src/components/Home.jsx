@@ -10,7 +10,7 @@ const Home = () => {
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
 
         <div className='flex flex-col justify-center h-full'>
-          <h2 className='text-3xl sm:text-7xl font-bold text-white'>I am a Full Stack M.E.R.N Developer</h2>
+          <h2 className='text-3xl sm:text-7xl font-bold text-white'>Full Stack M.E.R.N. Developer</h2>
           <p className='text-gray-500 py-4 max-w-md'>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores maxime quo sapiente aperiam, dolores tempora, qui sequi obcaecati, animi consequuntur magni est numquam molestiae. Minima saepe recusandae libero quia temporibus.
           </p>
