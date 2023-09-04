@@ -18,6 +18,9 @@ const NavBar = () => {
       link: 'Portfolio'
     },{
       id: 4,
+      link: 'Experience'
+    },{
+      id: 5,
       link: 'Contact'
     }
   ]
@@ -25,7 +28,7 @@ const NavBar = () => {
   return (
     <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4'>
       <div>
-        <h1 className='text-5xl'>Pablo's <span>TechTide</span></h1>
+        <h1 className='text-4xl'>Pablo's <span>TechTide</span></h1>
       </div>
 
 
