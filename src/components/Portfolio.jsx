@@ -60,7 +60,7 @@ const Portfolio = () => {
 
       <div className='grid sm:grid-col-2 md:grid-col-3 gap-8 px-12 lg:gap-10 sm:px-0 lg:grid-cols-2'>
     {projects.map(({id, image, title, github, website})=>(
-      <div key={id} className='max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden  p-4 mx-auto flex-row'>
+      <div key={id} className='max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden  p-4 mx-auto flex-row duration-500 hover:shadow-blue-500'>
         <img src={image} alt={title} className='w-2/3 rounded-lg duration-200 hover:scale-105'/>
         <div className='w-1/3 flex flex-col items-center justify-evenly p-1'>
           <h2>{title}</h2>

@@ -26,7 +26,7 @@ const NavBar = () => {
   ]
 
   return (
-    <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4'>
+    <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4 border-b-2'>
       <div>
         <h1 className='text-4xl'>Pablo's <span>TechTide</span></h1>
       </div>
