@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import { FaBarsStaggered } from "react-icons/fa6";
 import { FaTimes} from 'react-icons/fa'
+import {Link} from 'react-scroll'
 
 const NavBar = () => {
 
@@ -9,32 +10,34 @@ const NavBar = () => {
   const anchors = [
     {
       id: 1,
-      link: 'Home'
+      link: 'home'
     },{
       id: 2,
-      link: 'About'
+      link: 'about'
     },{
       id: 3,
-      link: 'Portfolio'
+      link: 'portfolio'
     },{
       id: 4,
-      link: 'Experience'
+      link: 'experience'
     },{
       id: 5,
-      link: 'Contact'
+      link: 'contact'
     }
   ]
 
   return (
-    <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4 border-b-2'>
+    <div className='flex justify-between items-center w-full h-20 text-white fixed bg-gray-900 px-4 border-b-2'>
       <div>
         <h1 className='text-4xl'>Pablo's <span>TechTide</span></h1>
       </div>
 
 
       <ul className='hidden md:flex'>
-        {anchors.map(a => (
-          <li key={a.id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200'>{a.link}</li>
+        {anchors.map(({id, link}) => (
+          <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200'>
+            <Link to={link} smooth duration={500}>{link}</Link>
+            </li>
         ))}
       </ul>
 
@@ -49,7 +52,7 @@ const NavBar = () => {
       <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-black text-gray-500'>
         {anchors.map(({ id, link }) => (
           <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl'>
-            {link}
+            <Link to={link} scroll duration={500}>{link}</Link>
           </li>
           ))}
       </ul>
