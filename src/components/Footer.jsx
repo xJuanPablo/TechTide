@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaLinkedin, FaGithub} from "react-icons/fa"
+import {FaLinkedin, FaGithub, FaStackOverflow} from "react-icons/fa"
 import {BsMailbox, BsFillFileEarmarkTextFill} from "react-icons/bs"
 
 function Footer() {
@@ -46,6 +46,15 @@ function Footer() {
       href: '/resume.pdf',
       style: 'rounded-br-md',
       download: true
+    },
+    {
+      id: 5,
+      child: (
+
+        <><FaStackOverflow size={33}/>
+        </>
+      ),
+      href: 'https://github.com/xJuanPablo',
     },
   ]
 

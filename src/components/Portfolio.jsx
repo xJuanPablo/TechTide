@@ -54,7 +54,7 @@ const Portfolio = () => {
 
 
       <div className='pb-9'>
-        <p className=' text-4xl font-bold inline border-b-4 border-gray-500'>Projects</p>
+        <p className=' text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
       </div>
       <p className='text-xl py-6'>Here is a collection of a few of my Projects.</p>
 
