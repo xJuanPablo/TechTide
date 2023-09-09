@@ -52,7 +52,7 @@ const NavBar = () => {
       <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-black text-gray-500'>
         {anchors.map(({ id, link }) => (
           <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl'>
-            <Link to={link} scroll duration={500}>{link}</Link>
+            <Link onClick={()=> setNav(!nav)} to={link} scroll duration={500}>{link}</Link>
           </li>
           ))}
       </ul>
