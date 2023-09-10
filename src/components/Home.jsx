@@ -2,18 +2,19 @@ import React from 'react'
 import hero from '../assets/hero.png'
 import {BsFillArrowRightCircleFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
+import RevolvingText from './RevolvingText'
 
 const Home = () => {
   return (
-    <div name='home' id='home' className='h-screen w-full bg-gradient-to-b from-gray-900 to-gray-700 '>
+    <div name='home' id='home' className='h-screen w-full bg-gradient-to-b from-zinc-800 to-gray-900 '>
 
 
-      <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
+      <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full  md:flex-row  '>
 
         <div className='flex flex-col justify-center h-full -mt-24'>
-          <h2 className='text-3xl sm:text-7xl font-bold text-white'>Full Stack M.E.R.N. Developer</h2>
+          <h2 className='text-3xl sm:text-7xl font-bold text-gray-200  '>Full Stack M.E.R.N. Developer</h2>
           <p className='text-gray-500 py-4 max-w-md'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores maxime quo sapiente 
+            <RevolvingText/>
           </p>
 
 
@@ -30,8 +31,8 @@ const Home = () => {
         </div>
 
 
-        <div className="rounded-tl-lg">
-          <img src={hero} alt="Developer" className=' mx-auto w-2/3 md:w-full sm:w-96 rounded-tl-lg -mt-24' />
+        <div className="rounded-full">
+          <img src={hero} alt="Developer" className=' mx-auto  md:w-full w-2/3 -mt-24 rounded-e-full'/>
         </div>
 
 

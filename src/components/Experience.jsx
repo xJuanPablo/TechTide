@@ -56,7 +56,7 @@ function Experience() {
   ]
 
   return (
-    <div name="experience" className='bg-gradient-to-b from-gray-700 to to-gray-900 w-full h-screen'> 
+    <div name="experience" className='bg-gradient-to-b from-gray-900 to to-zinc-800 w-full h-screen'> 
 
 
 
@@ -70,7 +70,7 @@ function Experience() {
 
         {experience.map(({id, skill, href}) => (
 
-        <div key={id} className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg bg-gray-800 shadow-gray-500 hover:shadow-blue-500'>
+        <div key={id} className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg bg-gray-700 shadow-gray-500 hover:shadow-blue-500'>
         <img src={href} alt={skill} className='w-20 mx-auto'/>
           <p className='mt-4'>{skill}</p>
         </div>
