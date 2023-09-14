@@ -5,6 +5,7 @@ import ByteBurst from "../assets/portfolio/ByteBurst.png"
 import Weather from "../assets/portfolio/Weather.png"
 import Schedule from "../assets/portfolio/Schedule.png"
 import noobz from "../assets/portfolio/noobz.png"
+import WET from '../assets/portfolio/WET.png'
 
 const Portfolio = () => {
 
@@ -45,7 +46,13 @@ const Portfolio = () => {
       title: 'Day Scheduler',
       github: 'https://github.com/xJuanPablo/list-it',
       website: 'https://xjuanpablo.github.io/list-it/'
-    },
+    },{
+      id: 7,
+      image: WET,
+      title: 'W.E.T.',
+      github: 'https://github.com/xJuanPablo/Water-Environment-Tracker',
+      website: 'https://water-environment-tracker-286add31110c.herokuapp.com/'
+    }
   ]
 
   return (
