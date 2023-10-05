@@ -10,12 +10,21 @@ const About = () => {
         <p className='text-4xl font-bold inline border-b-4 border-gray-500 text-gray-200'>About</p>
       </div>
 
-      <p className='text-xl text-gray-200 font-bold'>I am in the midst of a career transition from the real estate industry to the dynamic world of web development. Currently, I am pursuing a Full-stack Web Development Certificate from the University of Texas at Austin. This journey has ignited my passion for coding and equipped me with the essential knowledge and skills for success in this fast-paced field.
+      <p className='text-xl text-gray-200 font-bold'>Welcome to my web portfolio! I'm a full-stack web developer, holding a certificate from the University of Texas at Austin, complemented by a solid foundation in business with a Bachelor of Arts in Business Administration.
       </p>
 
       <br />
 
-      <p className='text-xl text-gray-200 font-bold'>With a real estate background, I bring essential skills to the table. My analytical thinking and creative problem-solving empower me to address complex challenges in web development, and I possess a proven aptitude for rapid learning and effective communication. I'm excited to contribute my skill set to collaborative action and any challenges I may encounter.</p>
+      <p className='text-xl text-gray-200 font-bold'>Coming from a real estate background, I merge analytical thinking and creative problem-solving to navigate the dynamic world of web development. My journey reflects a commitment to rapid learning and a passion for crafting robust digital solutions.</p>
+
+      <br />
+
+      <p className='text-xl text-gray-200 font-bold'> As a collaborator, I integrate effective communication and adaptability into team dynamics. My business education enhances this collaborative approach, providing valuable insights into how technology aligns with broader business objectives. </p>
+
+      <br />
+
+      <p className='text-xl text-gray-200 font-bold'>Explore my portfolio to witness projects showcasing not only technical proficiency but also a dedication to creating user-friendly web experiences. </p>
+
     </div>
 
     </div>
