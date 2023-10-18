@@ -6,6 +6,7 @@ import Weather from "../assets/portfolio/Weather.png"
 import Schedule from "../assets/portfolio/Schedule.png"
 import noobz from "../assets/portfolio/noobz.png"
 import WET from '../assets/portfolio/WET.png'
+import ExpressExtract from '../assets/portfolio/ExpressExtract.png'
 
 const Portfolio = () => {
 
@@ -30,10 +31,10 @@ const Portfolio = () => {
       website: 'https://byte-burst-ed6cc7a9dafa.herokuapp.com/'
     },  {
       id: 4,
-      image: SEO,
-      title: 'Horiseon',
-      github: 'https://github.com/xJuanPablo/Hori-SEO-n',
-      website: 'https://xjuanpablo.github.io/Hori-SEO-n/'
+      image: ExpressExtract,
+      title: 'Express Extract',
+      github: 'https://github.com/xJuanPablo/ExpressExtract',
+      website: 'https://gleeful-piroshki-d88867.netlify.app/'
     },  {
       id: 5,
       image: Weather,
