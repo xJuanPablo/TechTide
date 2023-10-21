@@ -1,6 +1,5 @@
 import React from 'react'
 import bookify from "../assets/portfolio/bookify.png"
-import SEO from "../assets/portfolio/SEO.png"
 import ByteBurst from "../assets/portfolio/ByteBurst.png"
 import Weather from "../assets/portfolio/Weather.png"
 import Schedule from "../assets/portfolio/Schedule.png"
