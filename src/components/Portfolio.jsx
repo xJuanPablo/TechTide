@@ -38,8 +38,8 @@ const Portfolio = () => {
       id: 5,
       image: Weather,
       title: 'Weather',
-      github: 'https://github.com/xJuanPablo/Pablos-Forecast',
-      website: 'https://xjuanpablo.github.io/Pablos-Forecast/'
+      github: 'https://github.com/xJuanPablo/WindWhisper',
+      website: 'https://famous-malabi-a2e901.netlify.app/'
     },  {
       id: 6,
       image: Schedule,
