@@ -22,36 +22,24 @@ const Portfolio = () => {
       title: 'Bookify',
       github: 'https://github.com/xJuanPablo/Bookify',
       website: 'https://bookify-1-c0d5b3199b9a.herokuapp.com/'
-    },  {
+    },{
       id: 3,
-      image: ByteBurst,
-      title: 'ByteBurst',
-      github: 'https://github.com/xJuanPablo/ByteBurst',
-      website: 'https://byte-burst-ed6cc7a9dafa.herokuapp.com/'
-    },  {
-      id: 4,
       image: ExpressExtract,
       title: 'Express Extract',
       github: 'https://github.com/xJuanPablo/ExpressExtract',
       website: 'https://gleeful-piroshki-d88867.netlify.app/'
     },  {
-      id: 5,
+      id: 4,
       image: Weather,
       title: 'Weather',
       github: 'https://github.com/xJuanPablo/WindWhisper',
       website: 'https://famous-malabi-a2e901.netlify.app/'
     },  {
-      id: 6,
+      id: 5,
       image: Schedule,
       title: 'Day Scheduler',
       github: 'https://github.com/xJuanPablo/list-it',
       website: 'https://xjuanpablo.github.io/list-it/'
-    },{
-      id: 7,
-      image: WET,
-      title: 'W.E.T.',
-      github: 'https://github.com/xJuanPablo/Water-Environment-Tracker',
-      website: 'https://water-environment-tracker-286add31110c.herokuapp.com/'
     }
   ]
 
