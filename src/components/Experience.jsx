@@ -23,32 +23,28 @@ function Experience() {
       id: 5,
       skill: 'Handlebars',
       href: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original.svg'
-    },  {
+    },   {
       id: 6,
-      skill: 'TailWindCSS',
-      href: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'
-    },  {
-      id: 7,
       skill: 'MySQL',
       href: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'
     },  {
-      id: 8,
+      id: 7,
       skill: 'MongoDB',
       href: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
     },  {
-      id: 9,
+      id: 8,
       skill: 'jQuery',
       href: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg'
     },  {
-      id: 10,
+      id: 9,
       skill: 'Express',
       href: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'
     },  {
-      id: 11,
+      id: 10,
       skill: 'NodeJs',
       href: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
     },{
-      id: 12,
+      id: 11,
       skill: 'GitHub',
       href: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
     }
