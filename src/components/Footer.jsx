@@ -62,7 +62,7 @@ function Footer() {
     <section className='bg-gray-900 border-t w-full h-full min-h-fit flex flex-col justify-center items-center py-16 px-5  '>
 
       <p className='text-white text-center mt-2 mb-5'>
-        © 2023, xJuanPablo
+        © 2025, xJuanPablo
       </p>
       <div className='flex items-center justify-between'>
 
