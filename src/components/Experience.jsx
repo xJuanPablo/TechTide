@@ -52,7 +52,7 @@ function Experience() {
   ]
 
   return (
-    <div name="experience" className='bg-gradient-to-b from-gray-900 to to-zinc-800 w-full'> 
+    <div name="experience" className='bg-gradient-to-b from-gray-900 to to-zinc-800 w-full pb-40'> 
 
 
 
