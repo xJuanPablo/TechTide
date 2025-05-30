@@ -6,7 +6,7 @@ function RevolvingText() {
 
   return (
       <div>
-        <div className='text-xl'>
+        {/* <div className='text-xl'>
         <span className='font-bold inline text-gray-200'>I am</span>{' '}
           <span className='bg-gradient-to-r from-cyan-500 to-blue-500 inline text-transparent bg-clip-text'>
             <Typewriter
@@ -20,7 +20,7 @@ function RevolvingText() {
 
             />
           </span>
-          </div>
+          </div> */}
       </div>
     )
 }
