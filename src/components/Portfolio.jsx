@@ -1,39 +1,26 @@
-import React from 'react'
-import bookify from "../assets/portfolio/bookify.png"
-import Weather from "../assets/portfolio/Weather.png"
-import Schedule from "../assets/portfolio/Schedule.png"
-import noobz from "../assets/portfolio/noobz.png"
-import ExpressExtract from '../assets/portfolio/ExpressExtract.png'
+import React from 'react';
+import bookify from "../assets/portfolio/bookify.png";
+import Weather from "../assets/portfolio/Weather.png";
+import Schedule from "../assets/portfolio/Schedule.png";
+import ExpressExtract from '../assets/portfolio/ExpressExtract.png';
 
 const Portfolio = () => {
 
-  const projects = [
+  const projects = [ 
     {
       id: 1,
-      image: noobz,
-      title: 'Noobz',
-      github: 'https://github.com/xJuanPablo/Noobz',
-      website: 'https://junoandice.github.io/Noobz/'
-    },  {
-      id: 2,
-      image: bookify,
-      title: 'Bookify',
-      github: 'https://github.com/xJuanPablo/Bookify',
-      website: 'https://bookify-1-c0d5b3199b9a.herokuapp.com/'
-    },{
-      id: 3,
       image: ExpressExtract,
       title: 'Express Extract',
       github: 'https://github.com/xJuanPablo/ExpressExtract',
       website: 'https://gleeful-piroshki-d88867.netlify.app/'
     },  {
-      id: 4,
+      id: 2,
       image: Weather,
       title: 'Weather',
       github: 'https://github.com/xJuanPablo/WindWhisper',
       website: 'https://famous-malabi-a2e901.netlify.app/'
     },  {
-      id: 5,
+      id: 3,
       image: Schedule,
       title: 'Day Scheduler',
       github: 'https://github.com/xJuanPablo/list-it',
