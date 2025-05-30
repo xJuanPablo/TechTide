@@ -28,7 +28,7 @@ const Portfolio = () => {
   ]
 
   return (
-    <section name="portfolio" className='w-full bg-cover h-full  bg-gradient-to-b from-zinc-800 to-gray-900 text-white '>
+    <section name="portfolio" className='w-full bg-cover h-full  bg-gradient-to-b from-zinc-800 to-gray-900 text-white pb-40'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
 
 
