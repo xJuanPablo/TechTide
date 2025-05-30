@@ -45,7 +45,7 @@ export const Links = () => {
         Resume <BsFillFileEarmarkTextFill size={33}/>
         </>
       ),
-      href: '/resume.pdf',
+      href: '/2025_Resume.pdf',
       style: 'rounded-br-md',
       download: true
     },

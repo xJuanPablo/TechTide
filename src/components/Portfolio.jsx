@@ -1,5 +1,4 @@
 import React from 'react';
-import bookify from "../assets/portfolio/bookify.png";
 import Weather from "../assets/portfolio/Weather.png";
 import Schedule from "../assets/portfolio/Schedule.png";
 import ExpressExtract from '../assets/portfolio/ExpressExtract.png';
