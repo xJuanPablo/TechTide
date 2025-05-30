@@ -48,41 +48,23 @@ function Experience() {
       skill: 'GitHub',
       href: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
     }
-
   ]
-
   return (
-    <div name="experience" className='bg-gradient-to-b from-gray-900 to to-zinc-800 w-full pb-40'> 
-
-
-
+    <section name="experience" className='bg-gradient-to-b from-gray-900 to to-zinc-800 w-full pb-40'> 
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
-
         <div className='mb-5 mt-12'>
           <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline '>Experience</p>
         </div>
-
         <div className='w-full grid grid-cols-1 sm:grid-cols-3 gap-8 text-center py-8 px-4 sm:px-0'>
-
         {experience.map(({id, skill, href}) => (
-
         <div key={id} className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg bg-gray-700 shadow-gray-500 hover:shadow-blue-500'>
         <img src={href} alt={skill} className='w-20 mx-auto'/>
           <p className='mt-4'>{skill}</p>
         </div>
-
         ))}
-
-
-
         </div>
-
       </div>
-
-
-
-
-    </div>
+    </section>
   )
 }
 

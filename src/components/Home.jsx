@@ -6,7 +6,7 @@ import RevolvingText from "./RevolvingText";
 
 const Home = () => {
   return (
-    <div
+    <section
       name="home"
       id="home"
       className=" w-full bg-gradient-to-b from-zinc-800 to-gray-900 pt-60 pb-40"
@@ -44,7 +44,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

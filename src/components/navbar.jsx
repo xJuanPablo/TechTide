@@ -27,7 +27,7 @@ const NavBar = () => {
   ]
 
   return (
-    <div className='flex justify-between items-center w-full h-20 text-white fixed bg-gray-900 px-4 border-b-2' style={{zIndex: 100}}>
+    <header className='flex justify-between items-center w-full h-20 text-white fixed bg-gray-900 px-4 border-b-2' style={{zIndex: 100}}>
       <div>
         <h1 className='text-4xl text-blue-100'>Pablo's <span>TechTide</span></h1>
       </div>
@@ -50,7 +50,7 @@ const NavBar = () => {
             ))}
         </ul>
       )}
-    </div>  
+    </header>  
   )
 }
 

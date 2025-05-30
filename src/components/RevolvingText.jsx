@@ -17,7 +17,6 @@ function RevolvingText() {
               typeSpeed={60}
               deleteSpeed={10}
               delaySpeed={1000}
-
             />
           </span>
           </div>
