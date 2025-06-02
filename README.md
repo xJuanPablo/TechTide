@@ -1,4 +1,5 @@
 # TechTide
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-%233178c6.svg?style=for-the-badge&logo=typescript&logoColor=%23fff) ![SASS](https://img.shields.io/badge/SASS-%23C66395.svg?style=for-the-badge&logo=sass&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ## Description
 Currently working on version 2
