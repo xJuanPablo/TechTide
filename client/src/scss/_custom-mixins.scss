@@ -1,0 +1,85 @@
+// Media of at most the maximum breakpoint width. No query for the largest breakpoint.
+// Makes the @content apply to the given breakpoint and narrower.
+@mixin container-breakpoint-down($name, $breakpoints: $container-breakpoints) {
+  $max: breakpoint-max($name, $breakpoints);
+  @if $max {
+    @container (max-width: $max) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+
+// Media of at least the minimum breakpoint width. No query for the smallest breakpoint.
+// Makes the @content apply to the given breakpoint and wider.
+@mixin container-breakpoint-up($name, $breakpoints: $container-breakpoints) {
+  $min: breakpoint-min($name, $breakpoints);
+  @if $min {
+    @container (min-width: #{$min}) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin make-container-columns($columns: $grid-columns, $gutter: $grid-gutter-width, $breakpoints: $container-breakpoints) {
+  @each $breakpoint in map-keys($breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+    @include container-breakpoint-up($breakpoint, $breakpoints) {
+      // Provide basic `.col-{bp}` classes for equal-width flexbox columns
+      .con-col#{$infix} {
+        flex: 1 0 0%; // Flexbugs #4: https://github.com/philipwalton/flexbugs#flexbug-4
+      }
+
+      .row-con-cols#{$infix}-auto > * {
+        @include make-col-auto();
+      }
+
+      @if $grid-row-columns > 0 {
+        @for $i from 1 through $grid-row-columns {
+          .row-con-cols#{$infix}-#{$i} {
+            @include row-cols($i);
+          }
+        }
+      }
+
+      .con-col#{$infix}-auto {
+        @include make-col-auto();
+      }
+
+      @if $columns > 0 {
+        @for $i from 1 through $columns {
+          .con-col#{$infix}-#{$i} {
+            @include make-col($i, $columns);
+          }
+        }
+
+        // `$columns - 1` because offsetting by the width of an entire row isn't possible
+        @for $i from 0 through ($columns - 1) {
+          @if not ($infix == "" and $i == 0) { // Avoid emitting useless .offset-0
+            .con-offset#{$infix}-#{$i} {
+              @include make-col-offset($i, $columns);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@for $i from 2 through 5 { 
+  .TT-template-column-wrap-#{$i} { 
+    columns: $i; 
+  } 
+  .TT-template-column-wrap-#{$i} > div {
+    break-inside: avoid; 
+  }
+}
+
+.con-levelset {
+  container-type: inline-size;
+};
