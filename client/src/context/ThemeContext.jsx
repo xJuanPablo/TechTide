@@ -3,7 +3,7 @@ import { createContext, useContext, useState, useEffe } from 'react';
 function ThemeContext() {
     return (
         <div>
-            ThemeContext
+            ThemeContext 
         </div>
     )
 }
