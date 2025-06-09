@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Landing from '../components/Landing';
 
 const Main: React.FC = () => {
   return (
-    <div>Main</div>
+    <div>
+      <Landing />
+    </div>
   )
 }
 
