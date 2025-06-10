@@ -1,10 +1,15 @@
 import React from "react";
+import { PortfolioSection } from "../data/Portfolio";
 
-const Card: React.FC = () => {
+type CardProps = {
+    section: PortfolioSection
+}
+
+const Card: React.FC<CardProps> = ({ section }) => {
     return (
-    <article>
+    <article className="g-col-4 border rounded">
     <div>
-        <header>Header</header>
+        <header>{section.title}</header>
         <img src="" alt="" />
         <div>
             <button>Learn More</button>
