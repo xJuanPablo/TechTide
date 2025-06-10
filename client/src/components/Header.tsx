@@ -1,15 +1,12 @@
-import { useContext } from 'react';
-import { ThemeContext } from '../context/ThemeContext';
+import { useTheme } from "../hooks/useTheme";
 
 const Header: React.FC = () => {
-  const context = useContext(ThemeContext);
-  if (!context) throw new Error('ThemeContext not found');
-  const { theme, toggleTheme } = context;
+  const { theme, toggleTheme } = useTheme()
+
   return (
     <header>
-      Header
       <button onClick={toggleTheme}>
-      Switch to {theme === 'light' ? 'dark' : 'light'} mode
+      {theme === 'light' ? '🌙' : '🌤️'}
       </button>
     </header>
   )
