@@ -1,3 +1,12 @@
 body {
     background-color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.theme-dark {
+    background-color: black;
+}
+
+body.theme-light {
+    background-color: #f1f1f1;
 }
