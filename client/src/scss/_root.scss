@@ -1,0 +1,21 @@
+:root {
+    --tt-primary: $TT-primary;
+    --tt-secondary: $TT-secondary;
+    --tt-tertiary: $TT-tertiary;
+    --tt-quaternary: $TT-quaternary;
+
+    --bs-primary: var(--tt-primary);
+    --bs-secondary: var(--tt-secondary);
+    --bs-success: var(--tt-tertiary);
+}
+
+.theme-dark {
+    --tt-primary: #252321;
+    --tt-secondary: #57758C;
+    --tt-tertiary: #1D1E22;
+    --tt-quaternary: #2B2D31;
+
+    --bs-primary: var(--tt-primary);
+    --bs-secondary: var(--tt-secondary);
+    --bs-success: var(--tt-tertiary);
+}
