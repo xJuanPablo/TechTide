@@ -5,7 +5,8 @@ export type PortfolioSection = {
 }
 
 export const PortfolioSection: PortfolioSection[] = [
-    {title: "1"},
-    {title: "2"},
-    {title: "3"}
+    {title: "TechTide"},
+    {title: "Express Extract"},
+    {title: "WindWhisper"},
+    {title: "Day Scheduler"}
 ]

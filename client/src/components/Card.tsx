@@ -7,12 +7,14 @@ type CardProps = {
 
 const Card: React.FC<CardProps> = ({ section }) => {
     return (
-    <article className="g-col-4 border rounded">
+    <article className="g-col-12 g-col-md-6 g-col-xl-4 border rounded shadow">
     <div>
-        <header>{section.title}</header>
+        <h3 className="text-center py-3">{section.title}</h3>
         <img src="" alt="" />
-        <div>
-            <button>Learn More</button>
+        <div className="d-flex justify-content-center">
+            <div className="mt-3 mb-4">
+                <button className="btn btn-primary">Learn More</button>
+            </div>
         </div>
     </div>
     </article>
