@@ -4,7 +4,7 @@ import Card from './Card';
 
 const Portfolio: React.FC = () => {
   return (
-    <section className='py-5'>
+    <section id='Portfolio' className='py-5'>
         <div className='container'>
             <div className='grid grid-column-12'>
                 {PortfolioSection.map((section, index) => (

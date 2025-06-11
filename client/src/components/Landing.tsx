@@ -2,7 +2,7 @@ import React from 'react'
 
 const Landing: React.FC = () => {
   return (
-    <section>
+    <section className='py-5 mt-5'>
       <div className='container'>
         Landing
       </div>
