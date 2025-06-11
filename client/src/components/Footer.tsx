@@ -1,6 +1,6 @@
 const Footer: React.FC = () => {
   return (
-    <footer className='border-top rounded-top-5'>
+    <footer className='border-top rounded-top-5 pb-3'>
       <div className='container'>
         <h4 className='mt-4'>Speak Soon, Stay Lucky!</h4>
         <div className='py-4 mb-3 mt-3 border rounded shadow'>

@@ -1,8 +1,8 @@
 :root {
-    --tt-primary: $TT-primary;
-    --tt-secondary: $TT-secondary;
-    --tt-tertiary: $TT-tertiary;
-    --tt-quaternary: $TT-quaternary;
+    --tt-primary: #{$TT-primary};
+    --tt-secondary: #{$TT-secondary};
+    --tt-tertiary: #{$TT-tertiary};
+    --tt-quaternary: #{$TT-quaternary};
 
     --bs-primary: var(--tt-primary);
     --bs-secondary: var(--tt-secondary);
