@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Hero from '../assets/images/Heading.jpg';
 
 const Landing: React.FC = () => {
   return (
@@ -6,6 +7,7 @@ const Landing: React.FC = () => {
       <div className='container'>
         Landing
       </div>
+      <img src={Hero} alt="" className='w-100'/>
     </section>
   )
 }
