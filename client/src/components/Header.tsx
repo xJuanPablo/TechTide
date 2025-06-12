@@ -8,7 +8,7 @@ const Header: React.FC = () => {
     <header className="pt-3 pb-2 mb-3 shadow fixed-top">
       <div className="container">
         <div className="d-flex justify-content-around">
-          <h1 className="mb-0">TechTide</h1>
+          <h1 className="mb-0 caprasimo-regular">TechTide</h1>
           <nav className="d-none d-md-flex">
             <ul className=" d-flex list-unstyled mb-0 align-items-center">
               {NavLinks.map((link, index) => (
