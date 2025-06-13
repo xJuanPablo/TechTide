@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
             </div>
             <div className="g-col-6">
               <div className="d-block">
-
+                <a href="/Resume.pdf" download={true}>Resume</a>
               </div>
               <div className="d-block">
                 <p className="mb-1">
