@@ -13,7 +13,7 @@ const Header: React.FC = () => {
             <ul className=" d-flex list-unstyled mb-0 align-items-center">
               {NavLinks.map((link, index) => (
                 <li key={index} className="mx-3">
-                  <a href={link.url} className="text-decoration-none">
+                  <a href={link.url} className="text-decoration-none fw-bold">
                     {link.title}
                   </a>
                 </li>
