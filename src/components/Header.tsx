@@ -1,8 +1,10 @@
 import { useTheme } from "../hooks/useTheme";
 import { NavLinks } from "../data/NavLinks";
+import { useToggle } from "../hooks/useToggle";
 
 const Header: React.FC = () => {
   const { theme, toggleTheme } = useTheme()
+  const {isOpen: isMenuActive, toggle: toggleMenu} = useToggle()
 
   return (
     <header className="pt-3 pb-2 mb-3 shadow fixed-top">
@@ -25,6 +27,15 @@ const Header: React.FC = () => {
               </li>
             </ul>
           </nav>
+          <div className="d-flex d-md-none justify-content-end">
+            <button className="bg-transparent border-0 d-flex align-items-center" onClick={toggleMenu}>
+              <div id="TT-menu-icon" className={`${isMenuActive ? "active" : ""}`}>
+                <div className="TT-bar-1"></div>
+                <div className="TT-bar-2"></div>
+                <div className="TT-bar-3"></div>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
     </header>
