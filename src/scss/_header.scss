@@ -7,3 +7,25 @@ header {
         color: var(--tt-primary);
     }
 }
+
+.TT-bar-1,
+.TT-bar-2,
+.TT-bar-3 {
+    width: 35px;
+    height: 2px;
+    background-color: var(--tt-primary);
+    margin: 6px 0;
+    transition: 0.4s
+}
+
+#TT-menu-icon.active .TT-bar-1 {
+    transform: translate(0, 8px) rotate(-45deg)
+}
+
+#TT-menu-icon.active .TT-bar-2 {
+    opacity: 0;
+}
+
+#TT-menu-icon.active .TT-bar-3 {
+    transform: translate(0, -8px) rotate(45deg)
+}
