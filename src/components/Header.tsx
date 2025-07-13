@@ -1,6 +1,7 @@
 import { useTheme } from "../hooks/useTheme";
 import { NavLinks } from "../data/NavLinks";
 import { useToggle } from "../hooks/useToggle";
+import MobileMenu from "./MobileMenu";
 
 const Header: React.FC = () => {
   const { theme, toggleTheme } = useTheme()
@@ -38,6 +39,7 @@ const Header: React.FC = () => {
           </div>
         </div>
       </div>
+      { isMenuActive && <MobileMenu/>}
     </header>
   )
 }
