@@ -7,3 +7,7 @@ body {
     background-color: var(--tt-primary);
     color: var(--tt-secondary);
 }
+
+body:has(#TT-menu-icon.active) {
+    overflow: hidden
+}
