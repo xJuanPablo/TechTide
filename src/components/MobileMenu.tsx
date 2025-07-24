@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLinks } from '../data/NavLinks';
+import ThemeToggle from './ThemeToggle';
 
 const MobileMenu: React.FC = () => {
   return (
@@ -12,6 +13,9 @@ const MobileMenu: React.FC = () => {
             </a>
           </li>
         ))}
+        <li>
+          <ThemeToggle />
+        </li>
       </ul>
     </nav>
   )
