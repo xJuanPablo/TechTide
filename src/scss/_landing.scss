@@ -1,0 +1,6 @@
+.TT-landing-tag {
+  text-shadow:
+  -6px -4px rgba(var(--tt-secondary-rgb), 0.3),
+  -12px -8px rgba(var(--tt-secondary-rgb), 0.2);
+  font-size: clamp(3.5rem, 7.5vw, 8rem);
+}

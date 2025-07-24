@@ -1,6 +1,7 @@
 :root {
     --tt-primary: #{$TT-primary};
     --tt-secondary: #{$TT-secondary};
+    --tt-secondary-rgb: 13, 60, 104;
     --tt-tertiary: #{$TT-tertiary};
     --tt-quaternary: #{$TT-quaternary};
 
@@ -10,10 +11,11 @@
 }
 
 .theme-dark {
-    --tt-primary: #252321;
-    --tt-secondary: #57758C;
-    --tt-tertiary: #1D1E22;
-    --tt-quaternary: #2B2D31;
+    --tt-primary: rgb(38, 36, 34);
+    --tt-secondary: hsl(206, 23%, 45%);
+    --tt-secondary-rgb: 206, 23%, 45%;
+    --tt-tertiary: rgb(29, 30, 34);
+    --tt-quaternary: rgb(43, 45, 49);
 
     --bs-primary: var(--tt-primary);
     --bs-secondary: var(--tt-secondary);
