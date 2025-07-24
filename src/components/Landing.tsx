@@ -1,13 +1,14 @@
 import React from 'react';
-import Hero from '../assets/images/Heading.jpg';
+import HeroImage from './HeroImage';
 
 const Landing: React.FC = () => {
   return (
-    <section className='py-5 mt-5'>
-      <div className='container'>
-        Landing
+    <section className=''>
+      <div className='container py-5 mt-2'>
+        <p className='display-1 caprasimo-regular text-center'>Pablo's TechTide</p>
+        <p className='text-center h4'>Frontend to backend, logic to launch — code that flows with purpose.</p>
       </div>
-      <img src={Hero} alt="" className='w-100'/>
+      <HeroImage />
     </section>
   )
 }
