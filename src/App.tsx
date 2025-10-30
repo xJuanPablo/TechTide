@@ -5,7 +5,7 @@ import Main from "./pages/Main";
 const App: React.FC = () => {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <Main />
       <Footer />
     </>
