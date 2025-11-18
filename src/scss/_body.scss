@@ -1,11 +1,7 @@
 body {
-    background-color: black;
+    background-color: var(--tt-bg);
     transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-body {
-    background-color: var(--tt-primary);
-    color: var(--tt-secondary);
+    color: var(--tt-text);
 }
 
 body:has(#TT-menu-icon.active) {
