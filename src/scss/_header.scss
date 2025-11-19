@@ -1,10 +1,10 @@
 header {
-    background-color: var(--tt-secondary);
+    background-color: var(--tt-header);
     h1 {
-        color: var(--tt-primary);
+        color: var( --tt-header-text);
     }
     nav a{
-        color: var(--tt-primary);
+        color: var( --tt-header-text);
     }
 }
 
@@ -13,7 +13,7 @@ header {
 .TT-bar-3 {
     width: 35px;
     height: 2px;
-    background-color: var(--tt-primary);
+    background-color: var( --tt-header-text);
     margin: 6px 0;
     transition: 0.4s
 }

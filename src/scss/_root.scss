@@ -1,31 +1,20 @@
 :root {
-    --tt-primary: #{$TT-primary};
-    --tt-secondary: #{$TT-secondary};
-    --tt-secondary-rgb: 13, 60, 104;
-    --tt-tertiary: #{$TT-tertiary};
-    --tt-quaternary: #{$TT-quaternary};
-
-    --bs-primary: var(--tt-primary);
-    --bs-secondary: var(--tt-secondary);
-    --bs-success: var(--tt-tertiary);
-
-    // Semantic
+    // Semantic (Shared)
+    --tt-header-text: #fefaf1;
+    --tt-footer-text: #fefaf1;
+    
+    // Semantic (Theme)
     --tt-bg: #fefaf1;
     --tt-text: #0a0d14;
+    --tt-header: #0d3d68;
+    --tt-footer: #0d3d68;
 }
 
 .theme-dark {
-    --tt-primary: rgb(38, 36, 34);
-    --tt-secondary: hsl(206, 23%, 45%);
-    --tt-secondary-rgb: 206, 23%, 45%;
-    --tt-tertiary: rgb(29, 30, 34);
-    --tt-quaternary: rgb(43, 45, 49);
 
-    --bs-primary: var(--tt-primary);
-    --bs-secondary: var(--tt-secondary);
-    --bs-success: var(--tt-tertiary);
-
-    // Semantic
+    // Semantic (Theme)
     --tt-bg: #0a0d14;
     --tt-text: #fefaf1;
+    --tt-header: #58768D;
+    --tt-footer: #58768D;
 }
