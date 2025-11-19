@@ -1,53 +1,8 @@
-
+import { SocialLinks, ContactLinks } from "../data/ContactLinks";
+import { NavLinks } from "../data/NavLinks";
 
 export function Footer() {
 	const year = new Date().getFullYear();
-
-	const company = [
-		{
-			title: 'About Us',
-			href: '#',
-		},
-		{
-			title: 'Careers',
-			href: '#',
-		},
-		{
-			title: 'Brand assets',
-			href: '#',
-		},
-		{
-			title: 'Privacy Policy',
-			href: '#',
-		},
-		{
-			title: 'Terms of Service',
-			href: '#',
-		},
-	];
-
-	const resources = [
-		{
-			title: 'Blog',
-			href: '#',
-		},
-		{
-			title: 'Help Center',
-			href: '#',
-		},
-		{
-			title: 'Contact Support',
-			href: '#',
-		},
-		{
-			title: 'Community',
-			href: '#',
-		},
-		{
-			title: 'Security',
-			href: '#',
-		},
-	];
 
 	return (
     <footer className="position-relative">
@@ -55,39 +10,50 @@ export function Footer() {
 
         <div className="container py-4 border-start border-end">
           <div className="row g-4">
-            <div className="col-12 col-md-8 d-flex flex-column gap-3">
-              <a href="#" className="opacity-25 d-inline-block">
-              </a>
+            <div className="col-12 col-md-6 d-flex flex-column">
 
-              <p className="font-monospace small text-white">
-                A comprehensive financial technology platform.
+              <p className="font-monospace text-white mb-2">
+                Web Development That flows with you.
               </p>
 
-              <div className="d-flex gap-2">
-                <a href="#" className="border rounded p-2 hover-bg-light">
-                  icon
-                </a>
-              </div>
+              <ul className="d-flex gap-2 list-unstyled">
+                  {SocialLinks.map((link, i) => {
+                    const Icon = link.img;
+                    return(
+                    <li key={i}>
+                      <a href={link.url} title={link.site} className="text-white">
+                        <Icon size={30}/>
+                      </a>
+                    </li>
+                    )
+                  })}
+              </ul>
+            </div>
+
+            <div className="col-6 col-md-4">
+              <span className="h5 fw-bold d-block mb-1">Contact</span>
+              <ul className="d-flex flex-column list-unstyled">
+                {ContactLinks.map((link, i) => (
+                  <li key={i}>
+                    <a href={link.to} className="text-break small py-1 text-decoration-none text-light">
+                      {link.method} {link.info}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
 
             <div className="col-6 col-md-2">
-              <span className="h1 small d-block mb-1">Resources</span>
-              <div className="d-flex flex-column">
-                <a href="#" className="small py-1 text-decoration-none link-underline-opacity-50-hover">Blog</a>
-                <a href="#" className="small py-1 text-decoration-none link-underline-opacity-50-hover">Help Center</a>
-                <a href="#" className="small py-1 text-decoration-none link-underline-opacity-50-hover">Support</a>
-                <a href="#" className="small py-1 text-decoration-none link-underline-opacity-50-hover">Community</a>
-              </div>
-            </div>
-
-            <div className="col-6 col-md-2">
-              <span className="h1 small d-block mb-1">Company</span>
-              <div className="d-flex flex-column">
-                <a href="#" className="small py-1 text-decoration-none link-underline-opacity-50-hover">About</a>
-                <a href="#" className="small py-1 text-decoration-none link-underline-opacity-50-hover">Careers</a>
-                <a href="#" className="small py-1 text-decoration-none link-underline-opacity-50-hover">Privacy</a>
-                <a href="#" className="small py-1 text-decoration-none link-underline-opacity-50-hover">Terms</a>
-              </div>
+              <h3 className="h5 fw-bold d-block mb-1">Quick Links</h3>
+              <ul className="d-flex flex-column list-unstyled">
+                {NavLinks.map((link, i) => (
+                  <li key={i}>
+                    <a href={link.url} className="small py-1 text-decoration-none text-light">
+                      {link.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
 
           </div>
@@ -97,7 +63,7 @@ export function Footer() {
         <div className="d-flex flex-column align-items-center border-top">
         <div className="container border-start border-end py-3">
           <p className="text-center mb-0">
-            © <a href="https://github.com/xJuanPablo">TechTide</a>.
+            © <a href="https://github.com/xJuanPablo" className="text-decoration-none text-light">TechTide</a>.
             All rights reserved {year}
           </p>
         </div>
