@@ -8,6 +8,10 @@
     --bs-primary: var(--tt-primary);
     --bs-secondary: var(--tt-secondary);
     --bs-success: var(--tt-tertiary);
+
+    // Semantic
+    --tt-bg: #fefaf1;
+    --tt-text: #0a0d14;
 }
 
 .theme-dark {
@@ -20,4 +24,8 @@
     --bs-primary: var(--tt-primary);
     --bs-secondary: var(--tt-secondary);
     --bs-success: var(--tt-tertiary);
+
+    // Semantic
+    --tt-bg: #0a0d14;
+    --tt-text: #fefaf1;
 }

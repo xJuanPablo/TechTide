@@ -3,13 +3,16 @@ import HeroImage from './HeroImage';
 
 const Landing: React.FC = () => {
   return (
-    <section>
-      <div className='container py-5 mt-2'>
-        <p className='display-1 caprasimo-regular text-center TT-landing-tag mb-1'>Pablo's TechTide</p>
-        <p className='text-center h4'>Frontend to backend, logic to launch — code that flows with purpose.</p>
+    <>
+    <section className='tt-hero text-center py-5'>
+      <div className='container'>
+        <h2 className='display-4 caprasimo-regular fw-bold'>Building Waves in Technology</h2>
+        <p className='lead mt-2 mb-4'>Frontend to backend, logic to launch — code that flows with purpose.</p>
+        <a href="#projects" className="btn btn-primary btn-lg px-4">View My Work</a>
       </div>
-      <HeroImage />
     </section>
+      <HeroImage />
+    </>
   )
 }
 

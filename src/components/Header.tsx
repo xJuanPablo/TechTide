@@ -8,7 +8,7 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <header className={`pt-3 pb-2 mb-3 fixed-top ${isMenuActive ? "" : "shadow"}`}>
+      <header className={`pt-3 pb-2 mb-3 fixed-top ${isMenuActive ? "" : "shadow"}`} style={{scrollPaddingTop: "6rem"}}>
         <div className="container">
           <div className="row">
             <h1 className="mb-0 caprasimo-regular col-3">TechTide</h1>
